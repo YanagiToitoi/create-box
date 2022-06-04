@@ -1,0 +1,61 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* フォントの種類を変える */
+}
+
+/* 対象をセレクタ、変更項目をプロパティ */
+.header {
+    color: #67a8a8;
+    background-color: #413f3f;
+    height: 90px;
+}
+
+.header-logo {
+    color: #67a8a8;
+    font-size: 42px;
+    float:left;
+    padding: 15px 40px; /* ボーダーの内側に空白*/
+}
+
+.header-list li {
+    list-style: none; /* リストのマークを消す */
+    float: left; /* 要素が左並びになる*/
+    padding: 34px 40px;
+}
+
+.main {
+    margin:10px; /* ボーダーの外側に空白を */
+    border-top:5px solid #adadad;
+    color: #4d4d4d;
+    font-size: 24px;
+    background-color: #e9e9e9;
+    height: 600px;
+    border-bottom:5px solid #adadad;
+}
+
+/* classにはドットを付ける タグには要らない*/
+.createLog {
+    color: #0b96c0;
+    font-size: 32px;
+}
+
+.footer {
+    background-color: #303031;
+    height: 120px;
+    color:#fff;
+    padding:40px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 32px;
+}
+
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li{
+    padding-bottom:20px;
+}
+
